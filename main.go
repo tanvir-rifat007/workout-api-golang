@@ -24,6 +24,8 @@ func main(){
 
 	}
 
+	defer app.DB.Close()
+
 
 
 	// Create a new server
